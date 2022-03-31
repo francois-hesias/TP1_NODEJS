@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/srvHesias.js",
+    "dev": "nodemon src/srvHesias.js",
+    "dev2": "nodemon src/srvHesias2.js",
+    "dev3": "nodemon src/srvHesiasReadFile.js",
+    "dev4": "nodemon src/srvHesiasReadFilePromise.js",
+    "dev5": "nodemon src/srvHesiasReadFilev3.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoinechab/nodejs-hesias.git"
+  },
+  "author": "antoine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoinechab/nodejs-hesias/issues"
+  },
+  "homepage": "https://github.com/antoinechab/nodejs-hesias#readme"
+}
